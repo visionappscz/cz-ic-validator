@@ -1,0 +1,32 @@
+{
+    "name": "visionappscz/cz-ic-validator",
+    "type": "library",
+    "description": "Validate CZ IC",
+    "keywords": ["ic","validator"],
+    "homepage": "https://www.visionapps.cz",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "VisionApps s.r.o.",
+            "email": "info@visionapps.cz",
+            "homepage": "http://www.visionapps.cz",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "codeception/codeception": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CZICValidator\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
